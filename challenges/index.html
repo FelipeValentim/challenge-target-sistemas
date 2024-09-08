@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Challenges</title>
+   <script src="./fibonacci.js"></script>
+   <script src="./aCounter.js"></script>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+   <div class="container">
+      <h2>Verificador de Sequência de Fibonacci</h2>
+      <label for="fibonacci">Informe um número:</label>
+      <input type="number" id="fibonacci" placeholder="Digite um número..." />
+      <button onclick="verifyFibonacci()">Verificar</button>
+      <div class="result" id="fibonacciResult"></div>
+
+      <hr>
+
+      <h2>Verificador de Existência da Letra 'A'</h2>
+      <label for="aCounter">Informe um texto:</label>
+      <input type="text" id="aCounter" placeholder="Digite um texto..." />
+      <button onclick="counterA()">Verificar</button>
+      <div class="result" id="aCounterResult"></div>
+   </div>
+</body>
+
+</html>
